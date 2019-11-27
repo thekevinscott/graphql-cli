@@ -233,15 +233,14 @@
     glob "7.1.6"
     pino "5.14.0"
 
-"@graphql-codegen/core@1.8.3":
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/core/-/core-1.8.3.tgz#de1f774f618208d4c3bade019c9cedb6dcb53517"
-  integrity sha512-JZ2YHnxpS44VqCSjROO8lXQ/bxAaqCHn2RxDHsSc1Zg0fSTIAF9f/N3bphYoez5d/5R7zoB50ZEyeqXeLg0esw==
+"@graphql-codegen/core@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/core/-/core-1.9.0.tgz#d51680f337cddd32ed8b00a311e85033aec04759"
+  integrity sha512-q8x1uJRY2GXHX1qQPQWIM8tKavPO0WRkPhYdp1FmZwLQ2OWYN889qBUsU7RqLSOrDLtHrRdwrchnhJWVWB5Ztw==
   dependencies:
     "@graphql-codegen/plugin-helpers" "1.8.3"
-    "@graphql-toolkit/common" "0.6.6"
-    "@graphql-toolkit/schema-merging" "0.6.6"
-    tslib "1.10.0"
+    "@graphql-toolkit/common" "0.7.2"
+    "@graphql-toolkit/schema-merging" "0.7.2"
 
 "@graphql-codegen/plugin-helpers@1.8.3":
   version "1.8.3"
@@ -253,6 +252,15 @@
     common-tags "1.8.0"
     import-from "3.0.0"
     tslib "1.10.0"
+
+"@graphql-codegen/plugin-helpers@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/plugin-helpers/-/plugin-helpers-1.9.0.tgz#2934a013ff5f1ded4b700093e8dff4c3c4230fc3"
+  integrity sha512-22bO0Hf+MG5pT47vopERqtemdyymfT3yOxAGd8M6VRMx8F33J+dsRK5j/2SZtHovF2c57oFxMFFyh3/O+O8gNw==
+  dependencies:
+    "@graphql-toolkit/common" "0.7.2"
+    change-case "3.1.0"
+    import-from "3.0.0"
 
 "@graphql-inspector/core@1.26.0":
   version "1.26.0"
@@ -370,15 +378,6 @@
     "@graphql-toolkit/common" "0.6.2"
     "@kamilkisiela/graphql-tools" "4.0.6"
     deepmerge "4.2.0"
-
-"@graphql-toolkit/schema-merging@0.6.6":
-  version "0.6.6"
-  resolved "https://registry.yarnpkg.com/@graphql-toolkit/schema-merging/-/schema-merging-0.6.6.tgz#fd863983afe84504bd433db8adb9022c484db0ad"
-  integrity sha512-vqwm9ya6gV7lFAF2/e84FpHcQMIpPJJbbFsrl4+9HXghoJEg1DXjZho4UJcB7ZVFR3ZDx2DkHhgX2TB/GWGg8A==
-  dependencies:
-    "@graphql-toolkit/common" "0.6.6"
-    "@kamilkisiela/graphql-tools" "4.0.6"
-    deepmerge "4.2.2"
 
 "@graphql-toolkit/schema-merging@0.7.2":
   version "0.7.2"
